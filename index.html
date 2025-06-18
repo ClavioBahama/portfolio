@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahama Dev - Gamer Developer Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo">ClavioDev</div>
+            <ul class="nav-links">
+                <li><a href="#home" data-pt="Início" data-en="Home">Início</a></li>
+                <li><a href="#about" data-pt="Sobre" data-en="About">Sobre</a></li>
+                <li><a href="#projects" data-pt="Projetos" data-en="Projects">Projetos</a></li>
+                <li><a href="#skills" data-pt="Habilidades" data-en="Skills">Habilidades</a></li>
+                <li><a href="#contact" data-pt="Contato" data-en="Contact">Contato</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+                <button class="lang-toggle" onclick="toggleLanguage()">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Clavio Chitsulete</h1>
+            <p class="subtitle fade-in">
+                <span class="typing-animation" data-pt="Desenvolvedor Full Stack & Gamer Apaixonado" data-en="Full Stack Developer & Passionate Gamer"></span>
+            </p>
+            <a href="#projects" class="cta-button fade-in" data-pt="Ver Meus Projetos" data-en="View My Projects">Ver Meus Projetos</a>
+        </div>
+    </section>
+
+<section id="about" class="section">
+    <h2 class="section-title fade-in" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
+    <div class="about-content">
+        <div class="about-image slide-in-left">
+  <img src="fotos/WhatsApp Image 2025-06-07 at 10.31.26 AM.jpeg" alt="Foto do Clavio" style="width: 100%; height: auto; border-radius: 10px;">
+</div>
+        <div class="about-text slide-in-right">
+            <p data-pt="Olá! Sou um jovem desenvolvedor moçambicano apaixonado por tecnologia e games. Atualmente cursando o 2º ano de Informática na Universidade Unisave, dedico-me constantemente ao aprendizado de novas tecnologias." data-en="Hello! I'm a young Mozambican developer passionate about technology and games. Currently studying Computer Science at Unisave University, I’m always learning new technologies.">
+                Olá! Sou um jovem desenvolvedor moçambicano apaixonado por tecnologia e games. Atualmente cursando o 2º ano de Informática na Universidade Unisave, dedico-me constantemente ao aprendizado de novas tecnologias.
+            </p>
+            <p data-pt="Natural de Maputo e atualmente vivendo em Xai-Xai, encontro na programação uma forma de transformar ideias em realidade digital. Meu perfil autodidata me permite explorar continuamente novas linguagens e frameworks." data-en="Born in Maputo and currently living in Xai-Xai, I see programming as a way to transform ideas into digital reality. Being self-taught allows me to explore new languages and frameworks.">
+                Natural de Maputo e atualmente vivendo em Xai-Xai, encontro na programação uma forma de transformar ideias em realidade digital. Meu perfil autodidata me permite explorar continuamente novas linguagens e frameworks.
+            </p>
+            <p data-pt="Quando não estou codificando, você pode me encontrar jogando ou explorando as últimas tendências em tecnologia. Acredito que a paixão pelos games me ajuda a pensar de forma criativa na resolução de problemas complexos." data-en="When I'm not coding, you can find me gaming or exploring the latest trends in technology. My passion for games helps me think creatively to solve complex problems.">
+                Quando não estou codificando, você pode me encontrar jogando ou explorando as últimas tendências em tecnologia. Acredito que a paixão pelos games me ajuda a pensar de forma criativa na resolução de problemas complexos.
+            </p>
+            <p data-pt="Objetivo: Tornar-me um desenvolvedor full-stack de referência, contribuindo para o crescimento tecnológico de Moçambique e além." data-en="Goal: To become a reference full-stack developer, contributing to Mozambique's technological growth and beyond.">
+                <strong>Objetivo:</strong> Tornar-me um desenvolvedor full-stack de referência, contribuindo para o crescimento tecnológico de Moçambique e além.
+            </p>
+        </div>
+    </div>
+</section>
+    <section id="projects" class="section">
+        <h2 class="section-title fade-in" data-pt="Meus Projetos" data-en="My Projects">Meus Projetos</h2>
+        <div class="projects-grid">
+            <div class="project-card scale-in">
+                <div class="project-image">🎬</div>
+                <div class="project-content">
+                    <h3 class="project-title">Bahama Flix</h3>
+                    <p class="project-description" data-pt="Plataforma de streaming completa com busca inteligente, catálogo de filmes e séries, sistema de favoritos e interface responsiva moderna." data-en="Complete streaming platform with intelligent search, movie and series catalog, favorites system and modern responsive interface.">
+                        Plataforma de streaming completa com busca inteligente, catálogo de filmes e séries, sistema de favoritos e interface responsiva moderna.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTMl5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https:bahamaflix.netlify.app" class="project-link" data-pt="🌐 Ver Online" data-en="🌐 Watch Online">🌐 Ver Online</a>
+                        <a href="https://bahama-flix.netlify.app" class="project-link" data-pt="🌐 Ver Demo" data-en="🌐 Watch Demo">🌐 Ver Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card scale-in">
+                <div class="project-image">🛒</div>
+                <div class="project-content">
+                    <h3 class="project-title">Bahama Solution</h3>
+                    <p class="project-description" data-pt="E-commerce profissional com painel administrativo completo, integração com M-Pesa e E-Mola, gestão de estoque e relatórios avançados." data-en="Professional e-commerce with complete admin panel, M-Pesa and E-Mola integration, inventory management and advanced reports.">
+                        E-commerce profissional com painel administrativo completo, integração com M-Pesa e E-Mola, gestão de estoque e relatórios avançados.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Payment APIs</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://bahamasolution.netlify.app" class="project-link" data-pt="🌐 Ver Demo" data-en="🌐 Watch Demo">🌐 Ver Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card scale-in">
+                <div class="project-image">📚</div>
+                <div class="project-content">
+                    <h3 class="project-title" data-pt="Plataforma Educacional" data-en="Educational Platform">Plataforma Educacional</h3>
+                    <p class="project-description" data-pt="Site educacional interativo com aulas de HTML, CSS e Python, exercícios práticos, sistema de progresso e certificados." data-en="Interactive educational site with HTML, CSS and Python lessons, practical exercises, progress system and certificates.">
+                        Site educacional interativo com aulas de HTML, CSS e Python, exercícios práticos, sistema de progresso e certificados.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">HTML5</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://aprendapython.netlify.app" class="project-link" data-pt="🌐 Ver Site" data-en="🌐 Watch Site">🌐 Ver Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="skills" class="section">
+    <h2 class="section-title fade-in" data-pt="Habilidades" data-en="Skills">Habilidades</h2>
+    <div class="skills-grid">
+        <div class="skill-item scale-in" data-skill="python">
+            <div class="skill-icon">🐍</div>
+            <div class="skill-name">Python</div>
+            <div class="skill-level">Intermediário</div>
+        </div>
+        <div class="skill-item scale-in" data-skill="html">
+            <div class="skill-icon">🌐</div>
+            <div class="skill-name">HTML5</div>
+            <div class="skill-level">Avançado</div>
+        </div>
+        <div class="skill-item scale-in" data-skill="css">
+            <div class="skill-icon">🎨</div>
+            <div class="skill-name">CSS3</div>
+            <div class="skill-level">Avançado</div>
+        </div>
+        <div class="skill-item scale-in" data-skill="js">
+            <div class="skill-icon">⚡</div>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-level">Intermediário</div>
+        </div>
+        <div class="skill-item scale-in" data-skill="java">
+            <div class="skill-icon">☕</div>
+            <div class="skill-name">Java</div>
+            <div class="skill-level">Básico</div>
+        </div>
+        <div class="skill-item scale-in" data-skill="git">
+            <div class="skill-icon">📂</div>
+            <div class="skill-name">Git</div>
+            <div class="skill-level">Intermediário</div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="contact" class="section">
+        <h2 class="section-title fade-in" data-pt="Contato" data-en="Contact">Contato</h2>
+        <div class="contact-content">
+            <form class="contact-form slide-in-left" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name" data-pt="Nome" data-en="Name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-pt="E-mail" data-en="Email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-pt="Mensagem" data-en="Message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" data-pt="Enviar Mensagem" data-en="Send Message">Enviar Mensagem</button>
+            </form>
+            
+            <div class="contact-info slide-in-right">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <a href="mailto:claviochitsulete@icloud.com" class="contact-link">claviochitsulete@icloud.com</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <a href="https://wa.me/258847944630" class="contact-link">+258 83 384 6565</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🐙</div>
+                    <a href="https://github.com/ClavioBahama" class="contact-link">github.com/ClavioBahama</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <a href="https://linkedin.com/in/bahamadev" class="contact-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bahama Developer. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
